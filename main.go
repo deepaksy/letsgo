@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"letsgo/basics"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	basics.Variables()
 }
